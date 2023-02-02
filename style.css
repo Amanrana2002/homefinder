@@ -38,6 +38,7 @@
 body{
     background: url('brown-brick-exterior-night.jpg');
     font-family: 'Libre Baskerville', serif;
+    background: cover;
 }
 .right{
     /* border: 2px solid white; */
