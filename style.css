@@ -14,6 +14,8 @@
     /* border: 2px solid yellow; */
     width: 40%;
     margin: 20px auto;
+    letter-spacing: 2px;
+
 }
 .navbar ul{
     overflow: auto;
@@ -21,34 +23,44 @@
 }
 .navbar li{
     list-style: none;
-    padding: 2px 10px;
+    padding: 2px 20px;
     display: inline-block;
 }
 .navbar li a{
     text-decoration: none;
-    color: white;
+    color: rgb(198, 197, 197);
     padding: 2px 8px;
 }
 .navbar li a:hover{
-    text-decoration: underline;
-    color: #ed996f ;
+    color: #f08753 ;
     font-family: 'Libre Baskerville', serif;
     
 }
 body{
     background: url('brown-brick-exterior-night.jpg');
     font-family: 'Libre Baskerville', serif;
-    background: cover;
+    background-size: cover ;
 }
 .right{
     /* border: 2px solid white; */
     display: inline-block;
-    right: 34px;
-    top: 22px;
+    right: 84px;
+    top: 10px;
     position: absolute;
     padding: 11px 22px;
     margin: 5px 5px;
 }
-/* .btn{ */
-    
-/* } */
+.btn{
+    border-radius: 20px;
+    border-color: white;
+    height: 40px;
+    width: 110px; 
+    letter-spacing: 2px;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+
+}
+.btn:hover{
+    background-color: #f08753;
+}
