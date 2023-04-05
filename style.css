@@ -305,9 +305,9 @@ h2{
 }
 
 .call-to-action a:hover{
-  color: #5D3C8F;
+  color: #f08753;
   background: transparent;
-  border: 2px solid #5D3C8F;
+  border: 2px solid #f08753;
 }
 
 /* Footer section *****************************  */
@@ -398,7 +398,7 @@ transition:all .2s linear
 .social-icons a:active,.social-icons a:focus,.social-icons a:hover
 {
 color:#fff;
-background-color:#29aafe
+background-color:#f08753;
 }
 .social-icons.size-sm a
 {
