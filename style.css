@@ -242,41 +242,19 @@ a{
 
 
 /* Our services page ******************** */
-.nextpage{
-    display: relative;
-    width: 100%;
-    text-align: center;
-    background-color: rgb(170, 113, 40);
-}
-.services{
-    padding: 85px 340px;
-    font-family: 'Poppins', sans-serif;
-    color: #fc671c;
-}
-.our-services{
-    text-align: center;
-    padding-bottom: 20px;
-    font-size: 3rem;
-    font-weight: 700;
-    
-}
-.our-service{
-    text-align: center;
-    font-weight: 400;
-}
-#boxes{
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    height: 50vh;
-    padding: 1rem 0rem 1rem 0rem;
-}
-.box{
-    width: 40%;
-    border: 2px solid black;
+.service-box h3{
+  margin: 5px 0 10px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+.service-box p{
+  margin: 0 0 10px;
+  font-family: sans-serif;
+}
 
+.service-box img{
+  width: 100%; 
+}
 
 
 /* Footer section *****************************  */
